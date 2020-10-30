@@ -3,16 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6076FE84252ABA57004BA119 /* CourierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FE83252ABA57004BA119 /* CourierApp.swift */; };
-		6076FE86252ABA57004BA119 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FE85252ABA57004BA119 /* ContentView.swift */; };
+		6076FE86252ABA57004BA119 /* CourierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FE85252ABA57004BA119 /* CourierView.swift */; };
 		6076FE88252ABA5A004BA119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6076FE87252ABA5A004BA119 /* Assets.xcassets */; };
 		6076FE8B252ABA5A004BA119 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6076FE8A252ABA5A004BA119 /* Preview Assets.xcassets */; };
 		6076FE96252ABA5B004BA119 /* CourierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FE95252ABA5B004BA119 /* CourierTests.swift */; };
 		6076FEA1252ABA5B004BA119 /* CourierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEA0252ABA5B004BA119 /* CourierUITests.swift */; };
+		6076FEB2252ABA77004BA119 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEB1252ABA77004BA119 /* User.swift */; };
+		6076FEBE252AC07E004BA119 /* MallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEBD252AC07E004BA119 /* MallsView.swift */; };
+		6076FEC3252AC098004BA119 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEC2252AC098004BA119 /* UserView.swift */; };
+		6076FEC8252AC377004BA119 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEC7252AC377004BA119 /* MainView.swift */; };
+		6076FED3252AC5CF004BA119 /* Courier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FED2252AC5CF004BA119 /* Courier.swift */; };
+		6076FEDB252AC5DA004BA119 /* CourierItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEDA252AC5DA004BA119 /* CourierItems.swift */; };
+		6076FEE4252AC75B004BA119 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEE3252AC75B004BA119 /* AddView.swift */; };
+		6076FEFA252AE6E9004BA119 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = 6076FEF9252AE6E9004BA119 /* SwiftUIPager */; };
+		6076FEFF252AED3B004BA119 /* ModifierUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076FEFE252AED3B004BA119 /* ModifierUI.swift */; };
+		60A4A47725412D8000D0FFF5 /* UserItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A4A47625412D8000D0FFF5 /* UserItems.swift */; };
+		60A4A4852542DE9F00D0FFF5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A4A4842542DE9F00D0FFF5 /* CircleImage.swift */; };
+		60A4A48E2542F81700D0FFF5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A4A48D2542F81700D0FFF5 /* SwiftUIView.swift */; };
+		60A4A4962542FF1F00D0FFF5 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A4A4952542FF1F00D0FFF5 /* DetailCell.swift */; };
+		60C7558B252EEA6F003289C3 /* CourierCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7558A252EEA6F003289C3 /* CourierCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +49,7 @@
 /* Begin PBXFileReference section */
 		6076FE80252ABA57004BA119 /* Courier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Courier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6076FE83252ABA57004BA119 /* CourierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierApp.swift; sourceTree = "<group>"; };
-		6076FE85252ABA57004BA119 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6076FE85252ABA57004BA119 /* CourierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierView.swift; sourceTree = "<group>"; };
 		6076FE87252ABA5A004BA119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6076FE8A252ABA5A004BA119 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6076FE8C252ABA5A004BA119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +59,19 @@
 		6076FE9C252ABA5B004BA119 /* CourierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6076FEA0252ABA5B004BA119 /* CourierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierUITests.swift; sourceTree = "<group>"; };
 		6076FEA2252ABA5B004BA119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6076FEB1252ABA77004BA119 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6076FEBD252AC07E004BA119 /* MallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallsView.swift; sourceTree = "<group>"; };
+		6076FEC2252AC098004BA119 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		6076FEC7252AC377004BA119 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6076FED2252AC5CF004BA119 /* Courier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courier.swift; sourceTree = "<group>"; };
+		6076FEDA252AC5DA004BA119 /* CourierItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierItems.swift; sourceTree = "<group>"; };
+		6076FEE3252AC75B004BA119 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		6076FEFE252AED3B004BA119 /* ModifierUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierUI.swift; sourceTree = "<group>"; };
+		60A4A47625412D8000D0FFF5 /* UserItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItems.swift; sourceTree = "<group>"; };
+		60A4A4842542DE9F00D0FFF5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		60A4A48D2542F81700D0FFF5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		60A4A4952542FF1F00D0FFF5 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		60C7558A252EEA6F003289C3 /* CourierCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6076FEFA252AE6E9004BA119 /* SwiftUIPager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				6076FE83252ABA57004BA119 /* CourierApp.swift */,
-				6076FE85252ABA57004BA119 /* ContentView.swift */,
+				6076FEC7252AC377004BA119 /* MainView.swift */,
+				6076FEDF252AC5E5004BA119 /* CourierPart */,
+				60A4A4892542E41D00D0FFF5 /* MallsPart */,
+				60A4A47B25412D8E00D0FFF5 /* UserPart */,
 				6076FE87252ABA5A004BA119 /* Assets.xcassets */,
 				6076FE8C252ABA5A004BA119 /* Info.plist */,
 				6076FE89252ABA5A004BA119 /* Preview Content */,
@@ -130,6 +161,48 @@
 			path = CourierUITests;
 			sourceTree = "<group>";
 		};
+		6076FEDF252AC5E5004BA119 /* CourierPart */ = {
+			isa = PBXGroup;
+			children = (
+				6076FEF3252ADD3E004BA119 /* AddCourierPart */,
+				6076FED2252AC5CF004BA119 /* Courier.swift */,
+				6076FEDA252AC5DA004BA119 /* CourierItems.swift */,
+				6076FE85252ABA57004BA119 /* CourierView.swift */,
+				60C7558A252EEA6F003289C3 /* CourierCell.swift */,
+				60A4A4952542FF1F00D0FFF5 /* DetailCell.swift */,
+				6076FEFE252AED3B004BA119 /* ModifierUI.swift */,
+			);
+			path = CourierPart;
+			sourceTree = "<group>";
+		};
+		6076FEF3252ADD3E004BA119 /* AddCourierPart */ = {
+			isa = PBXGroup;
+			children = (
+				6076FEE3252AC75B004BA119 /* AddView.swift */,
+			);
+			path = AddCourierPart;
+			sourceTree = "<group>";
+		};
+		60A4A47B25412D8E00D0FFF5 /* UserPart */ = {
+			isa = PBXGroup;
+			children = (
+				6076FEB1252ABA77004BA119 /* User.swift */,
+				60A4A47625412D8000D0FFF5 /* UserItems.swift */,
+				6076FEC2252AC098004BA119 /* UserView.swift */,
+				60A4A48D2542F81700D0FFF5 /* SwiftUIView.swift */,
+				60A4A4842542DE9F00D0FFF5 /* CircleImage.swift */,
+			);
+			path = UserPart;
+			sourceTree = "<group>";
+		};
+		60A4A4892542E41D00D0FFF5 /* MallsPart */ = {
+			isa = PBXGroup;
+			children = (
+				6076FEBD252AC07E004BA119 /* MallsView.swift */,
+			);
+			path = MallsPart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +219,9 @@
 			dependencies = (
 			);
 			name = Courier;
+			packageProductDependencies = (
+				6076FEF9252AE6E9004BA119 /* SwiftUIPager */,
+			);
 			productName = Courier;
 			productReference = 6076FE80252ABA57004BA119 /* Courier.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +293,9 @@
 				Base,
 			);
 			mainGroup = 6076FE77252ABA56004BA119;
+			packageReferences = (
+				6076FEF8252AE6E9004BA119 /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+			);
 			productRefGroup = 6076FE81252ABA57004BA119 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +338,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6076FE86252ABA57004BA119 /* ContentView.swift in Sources */,
+				6076FEFF252AED3B004BA119 /* ModifierUI.swift in Sources */,
+				60C7558B252EEA6F003289C3 /* CourierCell.swift in Sources */,
+				6076FE86252ABA57004BA119 /* CourierView.swift in Sources */,
+				60A4A4852542DE9F00D0FFF5 /* CircleImage.swift in Sources */,
 				6076FE84252ABA57004BA119 /* CourierApp.swift in Sources */,
+				60A4A4962542FF1F00D0FFF5 /* DetailCell.swift in Sources */,
+				6076FEE4252AC75B004BA119 /* AddView.swift in Sources */,
+				6076FEC3252AC098004BA119 /* UserView.swift in Sources */,
+				6076FEBE252AC07E004BA119 /* MallsView.swift in Sources */,
+				60A4A47725412D8000D0FFF5 /* UserItems.swift in Sources */,
+				6076FED3252AC5CF004BA119 /* Courier.swift in Sources */,
+				6076FEDB252AC5DA004BA119 /* CourierItems.swift in Sources */,
+				6076FEC8252AC377004BA119 /* MainView.swift in Sources */,
+				6076FEB2252ABA77004BA119 /* User.swift in Sources */,
+				60A4A48E2542F81700D0FFF5 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +672,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6076FEF8252AE6E9004BA119 /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6076FEF9252AE6E9004BA119 /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6076FEF8252AE6E9004BA119 /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6076FE78252ABA56004BA119 /* Project object */;
 }
